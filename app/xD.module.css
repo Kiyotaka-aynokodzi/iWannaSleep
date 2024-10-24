@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+   }
+   
+   .playlist {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+   }
+   
+   .tracks {
+    list-style: none;
+    padding: 0;
+   }
+   
+   .track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+   }
+   
+   .albumArt {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+   }
+   
+   .title {
+    font-weight: bold;
+   }
+   
+   .delete-track, .add-track, .share-playlist {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
